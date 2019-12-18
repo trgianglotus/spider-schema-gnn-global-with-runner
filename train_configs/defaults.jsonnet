@@ -1,4 +1,4 @@
-local dataset_path = "dataset/";
+local dataset_path = "/home/nguyengiang/spider-schema-gnn/dataset/";
 
 {
   "random_seed": 5,
@@ -70,7 +70,7 @@ local dataset_path = "dataset/";
   },
   "trainer": {
     "num_epochs": 100,
-    "cuda_device": 0,
+    "cuda_device": -1,
     "patience": 20,
     "validation_metric": "+sql_match",
     "optimizer": {

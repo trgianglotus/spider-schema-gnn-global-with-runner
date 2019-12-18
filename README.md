@@ -72,3 +72,4 @@ allennlp predict experiments/name_of_experiment dataset/dev.json \
 --weights-file experiments/name_of_experiment/best.th \
 -o "{\"dataset_reader\":{\"keep_if_unparsable\":true}}"
 ```
+# spider-schema-gnn-global-with-runner
